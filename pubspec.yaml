@@ -1,0 +1,52 @@
+name: flutter_finish
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  image_picker: ^0.8.5+3
+  http: ^0.13.4
+  shared_preferences: ^2.0.13
+  flutter_rating_bar: ^4.0.1
+  flutter_typeahead: ^3.2.4
+  video_player: ^2.4.4
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - images/Vector.png
+    - images/car.png
+    - images/icon.png
+    - images/create.png
+    - images/idea.png
+    - images/cap.png
+    - images/crowns.png
+    - images/logo.png
+    - images/lists.png
+    - images/send_icon.png
+    - images/skills.png
+    
+  
+  
+  fonts:
+    - family: Schyler
+      fonts:
+        - asset: fonts/ABeeZee-Regular.ttf
+        - asset: fonts/ABeeZee-Italic.ttf
+
